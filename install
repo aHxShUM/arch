@@ -2,4 +2,8 @@
 
 pacstrap base base-devel wpa_supplicant grub efibootmgr
 
-pacman -S bind openssh xorg xorg-xinit i3-wm i3status dmenu dunst
+pacman -S bind openssh xorg xorg-xinit i3-wm i3status dmenu dunst alsa-utils \
+  fcitx fcitx-configtool rsync rclone \
+  qemu libvirt ovmf \
+  ranger tmux feh p7zip \
+  docker docker-compose
