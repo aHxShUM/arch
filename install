@@ -2,8 +2,18 @@
 
 pacstrap base base-devel wpa_supplicant grub efibootmgr
 
+# Packages
+
 pacman -S bind openssh xorg xorg-xinit i3-wm i3status dmenu dunst alsa-utils \
-  fcitx fcitx-configtool rsync rclone \
+  fcitx fcitx-configtool rsync rclone firefox \
   qemu libvirt ovmf \
   ranger tmux feh p7zip xclip \
   docker docker-compose
+
+# AUR
+
+./clone visual-studio-code-bin
+./clone minikube-bin
+./clone kubectl-bin
+./clone google-chrome
+./clone st
